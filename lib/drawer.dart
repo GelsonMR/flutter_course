@@ -15,7 +15,7 @@ class AppDrawer extends StatelessWidget {
             title: Text('Choose'),
           ),
           ListTile(
-            title: Text('Home'),
+            title: Text('All products'),
             onTap: () => Navigator.pushReplacement(
                 context,
                 MaterialPageRoute(
