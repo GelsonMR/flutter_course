@@ -5,7 +5,7 @@ class ProductsAdminPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Product Admin'),
+        title: Text('Manage Products'),
       ),
       body: Center(
         child: Text('This is the page'),
