@@ -16,19 +16,11 @@ class AppDrawer extends StatelessWidget {
           ),
           ListTile(
             title: Text('All products'),
-            onTap: () => Navigator.pushReplacement(
-                context,
-                MaterialPageRoute(
-                  builder: (BuildContext context) => ProductsPage(),
-                )),
+            onTap: () => Navigator.pushReplacementNamed(context, '/'),
           ),
           ListTile(
             title: Text('Manage Products'),
-            onTap: () => Navigator.pushReplacement(
-                context,
-                MaterialPageRoute(
-                  builder: (BuildContext context) => ProductsAdminPage(),
-                )),
+            onTap: () => Navigator.pushReplacementNamed(context, '/admin'),
           ),
         ],
       ),
