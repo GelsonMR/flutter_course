@@ -16,7 +16,7 @@ class AppDrawer extends StatelessWidget {
           ),
           ListTile(
             title: Text('All products'),
-            onTap: () => Navigator.pushReplacementNamed(context, '/'),
+            onTap: () => Navigator.pushReplacementNamed(context, '/products'),
           ),
           ListTile(
             title: Text('Manage Products'),
